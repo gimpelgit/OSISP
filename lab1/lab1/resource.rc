@@ -1,0 +1,14 @@
+#include "resource.h"
+
+
+MY_APP_ICON	ICON computer.ico
+MY_INFO_ICON ICON info.ico
+
+MainMenu	MENU	DISCARDABLE {
+	POPUP "Программа" {
+		MENUITEM "Запустить программу", MENU_PROG_START
+	}
+	POPUP "Справка" {
+		MENUITEM "О программе", MENU_ABOUT
+	}
+}
